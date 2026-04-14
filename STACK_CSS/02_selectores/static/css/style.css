@@ -1,0 +1,31 @@
+h1 {
+   color: royalblue;
+}
+
+
+p {
+   text-align: right;
+}
+
+.is-centered {
+   text-align: center;
+}/*centrar texto*/
+
+
+.is-orange {
+   color: darkorange;
+}
+   
+#container {
+   width: 200px;/*Ancho*/
+   height: 200px;/*Altura*/
+   padding: 10px;/*espacio interno*/
+}
+
+#avatar {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;/*esquinas redondeadas*/
+   margin-top: 20px;/*margen superior*/
+   margin-left: 25px;/*margen izquierdo*/
+}
