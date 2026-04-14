@@ -28,3 +28,32 @@ h1 {
 .quote h4 {color: rgb(97, 7, 70);
    font-weight: bold; /*negrita*/
 }
+.header > img { /*solo afecta al hijo directo*/
+   height: 50px; /*altura de imagen*/
+}
+#container p { /*selección de parrafo dentro de contenedor*/
+   font-size: 16px; /*tamaño de letra*/
+   background-color: #444;
+   color: white;
+}
+
+#container p.highlight {
+   font-weight: bold;
+   color: gold;
+}
+form{
+   padding:20px;
+
+}
+input[type="text"] {
+   border: 2px solid royalblue;
+   padding:3px;
+}
+
+input[type="submit"] {
+   color: white;
+   background-color: mediumvioletred;
+   border: none; /*quitar los bordes*/
+   padding:5px 20px;
+   cursor: pointer; /*manito para realizar click*/
+}
