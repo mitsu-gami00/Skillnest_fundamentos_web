@@ -5,6 +5,8 @@
 }
 .centrado{
     text-align: center;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .encabezados{
     padding: 40px;
@@ -12,6 +14,7 @@
 .centrado a{
     text-decoration: none;
     font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .titulo{
     margin-bottom: 20px;
@@ -25,9 +28,11 @@
     padding:45px;
     color:white;
     font-weight: bold;
-    width: 300px;
-    height: 150px;
+    width: 304px;
+    height: 165px;
     border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Inter', sans-serif;
 }
 .azul{
     background-color: #3498DB;
@@ -37,4 +42,10 @@ background-color: #E74C3C;
 }
 .verde{
 background-color: #2ECC71;
+}
+.h1{
+    color:#2C3E50;
+}
+.a{
+color:#3788BD;
 }
