@@ -1,11 +1,15 @@
 body {
   text-align: center;
+  background-color: #353434;
 } 
 
 .contenedor {
   padding: 40px 20px;
 }
 
+.subtitulo {
+  color:white;
+}
 
 a {
     font-style: none;
@@ -13,7 +17,7 @@ a {
 }
 
 h1 {
-  color: #2c3e50;
+  color: #ffffff;
 }
 .cards {
   display: grid;

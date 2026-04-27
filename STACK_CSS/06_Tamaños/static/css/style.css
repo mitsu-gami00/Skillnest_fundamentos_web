@@ -7,24 +7,24 @@
 }
 
 body{
-  background-color: rgb(33, 35, 36);
-  color: white;
+  background-color: #000017;
+  color: #FCFBFC;
 }
 
 .encabezado{
     width: 100%;
     /*Todo el ancho de la pagina*/
-    background-color: grey;
+    background-color: #000000;
     padding: 15px;
 }
 
 .titulo_header{
     text-align: center;
-    color: white;
+    color: #FCFBFC;
 }
 
 .container{
-    outline: solid 1px grey;
+   outline: solid 1px rgb(255, 255, 255);
     margin: 0 auto;
     /*centrar un elemento*/
     width: 900px;
@@ -32,11 +32,6 @@ body{
 }
 
 /*Tamaños ejemplos CSS*/
-.aceptar{
-    width: 100px;
-    height: 50px;
-}
-
 .caja1{
     margin: 0 auto;
     /*Centrar un elemento*/
@@ -53,11 +48,12 @@ body{
 
 .link1{
     font-size: 300%; 
-    color:aqua;
+    color:#7148BD;
+    font-style: italic;
     /*tamaño proporcional*/
 }
 .cursiva{
-    color: rgb(255, 255, 255);
+    color: #FCFBFC;
     margin-top: 15px;
     font-style: italic;
 }
@@ -73,19 +69,19 @@ body{
 }
 
 .example1{
-background-color: blueviolet;
+background-color: #000091;
 height: 100px;
 width: 300px;
 }
 
 .example2{
-background-color: rgb(159, 194, 194);
+background-color:#7046B6;
 height: 100px;
 width: 300px;
 }
 
 .example3{
-background-color: pink;
+background-color: #000126;
 height: 100px;
 width: 300px;
 }
@@ -100,7 +96,30 @@ width: 300px;
 }
 /*🎨 Fondo y colores*/
 .banner {
-    height: 400px;
+    height: 500px;
     width: 100%;
-    background: red url("/STACK_CSS/06_Tamaños/static/images/vege777.jpg") no-repeat fixed center;
+    background: rgb(0, 0, 0) url("/STACK_CSS/06_Tamaños/static/images/Majin_Sonic.webp") no-repeat fixed center center;
+}
+
+/*🟫 Bordes y estilos*/
+.aceptar {
+    width: 70px;
+    height: 30px;
+   border: 2px dotted #7046B6;
+}
+
+.articulo1 {
+   border: 1px solid rgb(255, 255, 255);
+}
+.articulo2 {
+    border: 1px dotted rgb(255, 255, 255);
+}
+
+/*🟢 Bordes redondeados*/
+.boton_redondeado {
+   border-radius: 5px;
+}
+
+.caja_redondeada {
+   border-radius: 50%;
 }
