@@ -2,9 +2,10 @@
     text-align: center;
 }
 body{
-  background-color: #ffffff;
+  background: url("/STACK_CSS/07_Practica_estilo_botones/static/images/Majin_Sonic.webp") ;
   color: #FCFBFC;
   text-align: center;
+
 }
 .row{
     text-align: center;
