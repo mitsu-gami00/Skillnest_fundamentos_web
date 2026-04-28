@@ -1,0 +1,43 @@
+*{
+    text-align: center;
+}
+body{
+  background-color: #ffffff;
+  color: #FCFBFC;
+  text-align: center;
+}
+.row{
+    text-align: center;
+    padding:10px;
+
+}
+.buscar{
+    height: 35px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    border:#000000 solid 2px;
+}
+.caja_redondeada {
+   border-radius: 50%;/*50% de radius es circulo perfecto*/
+ background-color: rgb(233, 185, 29);
+   height: 50px;
+   width: 50px;
+   font-weight: bold;
+   text-align: center;
+   font-size:large;
+   color:#FCFBFC;
+   border:rgb(233, 185, 29)
+
+   
+}
+.cuenta{
+    background-color: rgb(23, 100, 189);
+    height: 40px;
+    width: 120px;
+    padding: 12px;
+    box-shadow:2px 2px 10px black;
+    text-align: center;
+    color:#FCFBFC;
+    border: rgb(23, 100, 189)
+}
