@@ -74,9 +74,9 @@ color: black;
 
 .box{
     display: inline-block;
-    width: 150px;
-    height: 100px;
-    background-color: rgb(255, 120, 203);
+    width: 265px;
+    height: 360px;
+    background-image: url("/STACK_CSS/08_inline_block/static/images/Joker.webp");
     color: black;
     margin: 10px;
     padding: 10px;
