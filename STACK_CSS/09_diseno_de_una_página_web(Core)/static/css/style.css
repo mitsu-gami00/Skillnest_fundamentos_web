@@ -37,7 +37,7 @@ nav {
 
 .cajas {
     border-radius: 5px;
-    height: 280px;
+    height: 300px;
     display: block;
     margin-top: 30px;
     margin-left: 100px;
@@ -65,9 +65,8 @@ h3{
     display: inline-block;
     color: white;
     border-radius: 5px;
-    height: 100px;
-    padding: 30px 10px ;
-    width: 355px;
+    width: 28%;
+    padding: 30px 30px;
     margin: 8px;
     box-shadow: 1px 1px 1px rgb(212, 212, 212);
 }
