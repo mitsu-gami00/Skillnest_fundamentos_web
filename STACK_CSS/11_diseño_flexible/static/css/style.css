@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.container {
+   display: flex; /* Activa flexbox en este contenedor */
+   justify-content: center; 
+   background-color: #242424;
+   padding: 20px;
+   flex-wrap: wrap;
+}
+
+.item {
+   background-color: #6e0000;
+   color: #ffffff;
+   margin: 20px;
+   padding: 20px;
+}
+
+.row {
+    flex-direction: row;/*dirección en filas*/
+}
+
+.column {
+    flex-direction: column;/*dirección en columnas*/
+}
+
+.start {
+    justify-content: flex-start;/*alineación a la izquierda*/
+} 
+
+.center {
+    justify-content: center;/*centrar elementos*/
+}
+
+.space-between {
+    justify-content: space-between;/*distribución de elementos perfecta*/
+}
+
+.contenedor {
+   background: #5e5e5e;
+   padding: 20px;
+   border-radius: 10px;
+
+   /* Propiedades flexbox */
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.elemento {
+   margin: 10px;
+   background-color: #ff0263;
+   color: #ffffff;
+   padding: 20px;
+   border-radius: 10px;
+
+}
