@@ -4,34 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Gabriel Naranjo">
+    <meta name="author" content="Ignacio Orellana">
     <!--Link CSS-->
     <link rel="stylesheet" href="static/css/style.css">
-    <title>Document</title>
+    <title>Posiciones CSS</title>
 </head>
 
 <body>
     <header>
         <nav class="barra-navegación">
             <h1>Position: static</h1>
-            <a href="#" class="enlace-nav">Haz scroll hacia abajo</a>
+            <a href="https://www.google.com/search?q=scrolling+que+es&oq=scroll&gs_lcrp=EgZjaHJvbWUqBwgCEAAYgAQyDAgAEEUYORixAxiABDIKCAEQABixAxiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiPAtIBCjEwMDExajBqMTWoAgiwAgHxBbQZNGvVAEyX&sourceid=chrome&ie=UTF-8" class="enlace-nav">Haz scroll hacia abajo</a>
         </nav>
     </header>
     <main class="contenedor-principal">
         <section class="tarjeta">
             <h2>Position:</h2>
-            <p>texto dentro</p>
-            <div class="caja"></div>
+            <p class="explicación">El bloque oscuro tiene <code>top:40px</code> en el codigo
+                , pero al ser <b>static</b> ignora la orden y se queda en la fila.</p>
+            <div class="bloque-normal">Bloque 1</div>
+            <div class="bloque-estático">Bloque 2 (Intentó moverse)</div>
+            <div class="bloque-normal">Bloque 3</div>
         </section>
         <section class="tarjeta">
-            <h2>Position:</h2>
-            <p>texto dentro</p>
-            <div class="caja"></div>
+            <h2>2.Position: relative</h2>
+            <p class="explicación">El bloque fuxia se movió 25px hacia abajo, pero 
+            <b>dejó hueco</b> (el molde puntuado)que impide subir al bloque 3.</p>
+            <div class="bloque-normal">Bloque 1</div>
+            <div class="molde-fantasma">
+            <div class="bloque-relativo">Bloque 2 (Se movió pero dejó hueco)</div>
+            </div>
+            <div class="bloque-normal">Bloque 3</div>
         </section>
         <section class="tarjeta">
-            <h2>Position:</h2>
-            <p>Texto dentro</p>
-            <div class="caja"></div>
+            <h2>3.Position: absolute</h2>
+            <p class="explicación">El botón rosita (X) flota anclado
+                a la esquina de su contenedor (relative), <b>sin estorbar
+                ni empujar</b> al texto.</p>
+            <div class="ventana-modal">
+                <div class="boton-cerrar">X</div>
+                <p style="color:blueviolet; font-size: 1rem;">Soy el contenido de 
+                una ventana modal. La x flota encima de mi gracias a mi posición absolute.</p>
+            </div>
         </section>
     </main>
 </body>
