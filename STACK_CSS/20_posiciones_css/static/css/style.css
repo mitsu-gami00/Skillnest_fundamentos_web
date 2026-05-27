@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px red solid;
+    font-family:Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 135, 201);
+    color: rgba(0, 0, 0, 0.755);
+    /*altura exageraqda para mostrar el efecto de scroll*/
+    min-height: 150vh;
+    padding-bottom: 50px;
+}
+
+/*posicion fija (fixed)*/
+.barra-navegación {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 15px 30px;
+    color: rgb(255, 136, 249);
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /*posiciona la barra por encima de otros elementos*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.838); /*agrega una sombra para mejorar la visibilidad*/
+}
+
+.barra-navegación h1 {
+    font-size: 1.2rem;
+}
+
+.enlace-nav {
+    text-decoration: none;
+    color: rgb(255, 136, 249);
+    font-weight: bold;
+    transition: color 0.3s ease; /*agrega una transición suave para el cambio de color*/
+}
+
+.enlace-nav:hover {
+    color: rgb(255, 0, 140);
+}
+
+/*contenedor principal*/
+.contenedor-principal {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px; /*espacio para evitar que el contenido quede oculto detrás de la barra de navegación*/
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    gap: 15px;
+    color: rgb(95, 0, 90);
+    background-color: rgb(255, 141, 238);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /*agrega una transición suave para el efecto de hover*/
+}
+
+.tarjeta:hover {
+    transform: translateY(-10px); /*eleva la tarjeta al hacer hover*/
+    box-shadow: 0 10px 20px black; /*aumenta la sombra para resaltar el efecto de hover*/
+}
