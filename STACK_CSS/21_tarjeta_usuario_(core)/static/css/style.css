@@ -28,12 +28,10 @@ body{
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-
     position: absolute;
     top: -60px;
     left: 50%;
     transform: translateX(-50%);
-
     border: 5px solid white;
 }
 
