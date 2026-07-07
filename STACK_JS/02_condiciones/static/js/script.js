@@ -67,14 +67,20 @@ function ejercicio2() {
 
 function ejercicio3() {
     let temperatura = parseInt(prompt("Ingrese la temperatura:"));
-    if (temperatura < 10) {
+    if (temperatura < 10 && temperatura >= 0) {
         alert("Hace frío🥶");
-    } else if (temperatura <= 24) {
+    } else if (temperatura < 0 && temperatura >= -20) {
+        alert("Hace frío extremo🥶");
+    } else if (temperatura <= 24 && temperatura >= 10) {
         alert("Temperatura agradable🏖");
-    } else if (temperatura > 35){
+    } else if (temperatura > 35 && temperatura <= 50) {
         alert("Temperatura extrema🔥");
-    } else {
+    } else if (temperatura >= 25 && temperatura <= 35) {
         alert("Hace calor☀");
+    } else if (temperatura === 67) {
+        alert("SIXSEVEN🔥");
+    } else {
+        alert("No se ingresó una temperatura válida❌");  
     }
 }
 
@@ -139,7 +145,7 @@ function ejercicio5() {
     }
     else {
         alert(`${nombreEstudiante} Reprobado y debe asistir a reforzamiento😞`);
-    }
+    } 
 }
 
 // ⭐ Desafío Extra
