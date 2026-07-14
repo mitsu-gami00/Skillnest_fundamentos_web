@@ -2,27 +2,27 @@ console.log("Hola mundo");
 
 /* Ejemplo de bucle for */
 function cuenta2() {
-    for (let i = 0; i < 3; i++) {
-        alert(i);
-    }
+  for (let i = 0; i < 3; i++) {
+    alert(i);
+  }
 }
 
 function cuenta5() {
-    for (let i = 1; i < 6; i++) {
-        alert(i);
-    }
+  for (let i = 1; i < 6; i++) {
+    alert(i);
+  }
 }
 
 function cuentaRegresiva() {
-    for (let i = 10; i > 0; i--) {
-        alert(i);
-    }
-    alert("🔥BOOM🔥");
+  for (let i = 10; i > 0; i--) {
+    alert(i);
+  }
+  alert("🔥BOOM🔥");
 }
-function recorrerLista() { 
-    //Lista es un tipo de dato (array/lista)
-    // [] = ["nombre", 4, True, [2,4]]
-    /*
+function recorrerLista() {
+  //Lista es un tipo de dato (array/lista)
+  // [] = ["nombre", 4, True, [2,4]]
+  /*
     let nombre = "Carlos";
     alert(nombre)
     let nombres = ["Carlos", "Maria"]
@@ -31,16 +31,51 @@ function recorrerLista() {
     alert(nombres.length) --> Imprime 2 
     alert(nombres[0].length) --> Imprime 6 
     */
-    let usuarios = ["Ana", "Luis", "María"];
-    for (let i = 0; i < usuarios.length; i++) {
+  let usuarios = ["Ana", "Luis", "María"];
+  for (let i = 0; i < usuarios.length; i++) {
     alert("Bienvenido, " + usuarios[i]);
+  }
 }
+
+/* Ejemplo de bucle while */
+
+function reproducirCancion() {
+  let reproduciendo = true;
+
+  while (reproduciendo) {
+    alert("La canción sigue sonando...");
+    // Simulación de una acción que detendría la reproducción
+    reproduciendo = false;
+  }
+}
+
+function cargarDatos() {
+  let datosPendientes = 5;
+
+  while (datosPendientes > 0) {
+    alert(`cargando datos... ${datosPendientes} pendientes`);
+    datosPendientes--;
+  }
+  alert("Carga completada");
 }
 
 function sixSeven() {
-    for (let i = 6; i < 8; i++) {
-        alert(i);
-    }
-    alert("🔥SIX SEVEN🔥");
+  for (let i = 6; i < 8; i++) {
+    alert(i);
+  }
+  alert("🔥SIX SEVEN🔥");
 }
-/* Ejemplo de bucle while */
+
+function validarContraseña() {
+  let contraseñaCorrecta = false;
+
+  while (!contraseñaCorrecta) {
+    let intento = prompt("Ingresa tu contraseña:");
+    if (intento === "1234") {
+      contraseñaCorrecta = true;
+      console.log("Acceso concedido.");
+    } else {
+      console.log("Contraseña incorrecta, intenta de nuevo.");
+    }
+  }
+}
