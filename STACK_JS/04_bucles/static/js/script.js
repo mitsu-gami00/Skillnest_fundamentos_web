@@ -68,14 +68,19 @@ function sixSeven() {
 
 function validarContraseña() {
   let contraseñaCorrecta = false;
-
+  let i = 0;
+// !variable = variable es distinta de true, es decir, es false
   while (!contraseñaCorrecta) {
     let intento = prompt("Ingresa tu contraseña:");
     if (intento === "1234") {
       contraseñaCorrecta = true;
-      console.log("Acceso concedido.");
+      alert("Acceso concedido.");
+    } else if (i < 2) {
+      alert("Contraseña incorrecta, intenta de nuevo.");
+      i++;
     } else {
-      console.log("Contraseña incorrecta, intenta de nuevo.");
+      alert("Has excedido el número de intentos. Acceso denegado.");
+      break;
     }
   }
 }
