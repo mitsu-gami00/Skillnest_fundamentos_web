@@ -1,7 +1,9 @@
 *{
     color: #fff;
 }
-
+a{
+    text-decoration: none;
+}
 body {
     margin: 0;
     padding: 20px;
