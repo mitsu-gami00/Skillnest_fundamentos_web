@@ -70,18 +70,62 @@ function eliminarI() {
     alert(eliminado + " eliminado");
 }
 
-let edades = [12,15,18,20,25];
-
-for(let i=0;i<edades.length;i++){
-
-    if(edades[i] >= 18){
-
-        console.log(edades[i]);
-
+//## Ejercicio 10 (Desafío)
+// - Total de ventas.
+// - Promedio.
+// - Venta mayor.
+// - Venta menor.
+// - Cantidad de ventas mayores a $10.000.
+// - Cantidad de ventas menores o iguales a $10.000.
+// - Índice donde ocurrió la venta mayor.
+// - Índice donde ocurrió la venta menor.
+function desafio() {
+    let ventas = [12000, 18000, 5000, 21000, 9000, 15000, 8000];
+    let total = 0;
+    for (let i = 0; i <= ventas.length - 1; i++) {
+        total += ventas[i]
+    }
+    let mayor = numeros[0];
+    for (let i = 1; i < numeros.length; i++) {
+        if (numeros[i] > mayor) {
+            mayor = numeros[i];
+        }
+    }
+        let promedio = total / ventas.length;
+        alert(`Total de ventas: ${ventas.length}`)
+        alert(`Promedio: ${promedio.toFixed(0)}`)
+        alert(`Venta mayor: ${mayor}`)
     }
 
-}
 
-18
-20
-25
+// # 🚀 Desafío Final
+
+// Una empresa registra las ventas de sus vendedores.
+
+// ```javascript
+// let vendedores = ["Ana","Pedro","María","José","Camila"];
+
+// let ventas = [350000,510000,420000,610000,480000];
+// ```
+
+// Desarrolla un programa que permita:
+
+// 1. Mostrar cada vendedor con su venta.
+// 2. Calcular el total vendido.
+// 3. Calcular el promedio.
+// 4. Mostrar el mejor vendedor.
+// 5. Mostrar el vendedor con menor venta.
+// 6. Mostrar los vendedores que vendieron más de $450.000.
+// 7. Contar cuántos vendedores superaron el promedio.
+// 8. Indicar si la empresa alcanzó una meta de **$2.300.000**.
+
+// ### ⭐ Desafío Extra
+
+// Permite que el usuario agregue nuevas ventas utilizando:
+
+// - `push()`
+// - `pop()`
+// - `shift()`
+// - `unshift()`
+
+// y vuelve a calcular todas las estadísticas automáticamente.
