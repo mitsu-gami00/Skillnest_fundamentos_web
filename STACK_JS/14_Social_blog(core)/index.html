@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <meta name="author" content="Ignacio Orellana">
+    <title>Social Blog</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <h1 class="logo">Social Blog</h1>
+        </div>
+        <div class="div">
+            <input type="text" placeholder="Buscar publicaciones...">
+        </div>
+        <div>
+            <button id="iniciarSesion" class="login">Iniciar sesión</button>
+        </div>
+    </nav>
+    <main>
+        <section class="publicaciones">
+            <section class="publi">
+                <h1>Fundamentos de JavaScript</h1>
+                <div class="sub">
+                    <p><span>Publicado Por:</span> Carlos Pérez</p>
+                    <p><span>Fecha:</span> 02/03/2025</p>
+                </div>
+                <p>JavaScript es un lenguaje de programación que se utiliza en el desarrollo web.
+                    Aprende los conceptos básicos para empezar a programar.
+                </p>
+                <button class="like"><span id="like1">0</span> Me gusta</button>
+            </section>
+            <section class="publi">
+                <h1>Aprende a diseñar con CSS</h1>
+                <div class="sub">
+                <p><span>Publicado Por:</span> Ana Gómez</p>
+                <p><span>Fecha:</span> 01/03/2025</p>
+                </div>
+                <p>El diseño web es una parte fundamental del desarrollo de aplicaciones web.
+                    Conoce las propiedades de CSS para crear interaces atractivas.
+                </p>
+                <button class="like"><span id="like2">0</span> Me gusta</button>
+            </section>
+        </section>
+        <section class="barralateral">
+            <h1>¡Bienvenido!</h1>
+            <p>Explora nuevas publicaciones y conecta con otros usuarios.</p>
+            <button id="verPerfil" class="verPerfil">Ver Perfil</button>
+        </section>
+    </main>
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
