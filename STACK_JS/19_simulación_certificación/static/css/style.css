@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    padding: 1%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+
+/*Barra De Navegación*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 2%;
+}
+
+.div-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.taco {
+    color: #FC6500;
+}
+
+.div-n {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8%;
+}
+
+.div-n div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+input {
+    height: 26px;
+}
+
+#login {
+    background-color: #FC6500;
+    color: white;
+    border: none;
+    padding: 0% 3%;
+    cursor: pointer;
+}
+
+/*Contenedor 1*/
+
+.contenedor1 {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex: 1;
+    gap: 5%;
+    padding: 1%;
+    background-color: #FEE8C6;
+    flex-wrap: wrap;
+}
+
+.plato {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex: 1;
+    min-width: 100px;
+}
+
+.plato-img {
+    width: 100%;
+}
+
+/*contenedor 2*/
+
+.contenedor2 {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex: 3;
+    gap: 5%;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+
+.c2-div1 {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    background-color: #C5C5C5;
+    padding: 1%;
+    padding-top: 4%;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.t-c2 {
+    display: flex;
+    flex: 1;
+    padding: 1%;
+    flex-direction: column;
+    gap: 1%;
+}
+
+.tc2desc {
+    font-size: 2.2rem;
+}
+
+.tc2dom {
+    font-size: 1.8rem;
+}
+
+.mex {
+    font-weight: bold;
+}
+
+.serv {
+    text-decoration: underline;
+}
+
+.dom {
+    color: #FC6500;
+}
+
+.img-c2 {
+    display: flex;
+    flex: 2;
+}
+
+#img-1{
+    width: 100%;
+    height: auto;
+    min-width: 400px;
+}
+
+.rec {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.orden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orden-t {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.orden-t div {
+    text-align: start;
+}
+
+.orden div div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.orden div img {
+    width: 100%;
+}
+
+button {
+    background-color: #FC6500;
+    padding: 5px 9px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+}
